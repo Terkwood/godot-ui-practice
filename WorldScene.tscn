@@ -6,12 +6,17 @@
 [node name="WorldScene" type="Node2D"]
 
 [node name="ItemList" type="ItemList" parent="."]
-margin_left = 270.0
-margin_top = 524.0
-margin_right = 750.0
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = 184.0
+margin_top = 504.0
+margin_right = 816.0
 margin_bottom = 599.0
+custom_constants/icon_margin = 4
+custom_constants/hseparation = 4
 max_columns = 10
 same_column_width = true
+icon_mode = 0
 script = ExtResource( 1 )
 
 [node name="TurkeyTexture" type="TextureRect" parent="ItemList"]

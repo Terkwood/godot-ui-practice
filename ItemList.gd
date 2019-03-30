@@ -6,5 +6,8 @@ func _ready():
 	self.add_item("Turkey", $TurkeyTexture.texture)
 	self.add_item("Turkey", $TurkeyTexture.texture)
 	self.add_item("Turkey", $TurkeyTexture.texture)
-	pass # Replace with function body.
-
+	self.add_item("Turkey", $TurkeyTexture.texture)
+	self.add_item("Turkey", $TurkeyTexture.texture)
+	self.add_item("Turkey", $TurkeyTexture.texture)
+	self.add_item("Turkey", $TurkeyTexture.texture)
+	self.add_item("Turkey", $TurkeyTexture.texture)
